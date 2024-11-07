@@ -38,7 +38,7 @@ button.addEventListener("click", function(){
         
         button.innerHTML = "Reset"
 
-        button.classList.add("reset")
+        button.classList.add("reset", "bgred")
     }
     if (button.classList.contains("reset")){
         i = 0;
