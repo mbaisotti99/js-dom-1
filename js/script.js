@@ -7,6 +7,8 @@ let i = 0;
 
 button.addEventListener("click", function(){
     i++;
+    button.classList.remove("bgred");
+    
     if (img.classList.contains("off")){
 
         img.src = "./img/yellow_lamp.png";
@@ -39,6 +41,7 @@ button.addEventListener("click", function(){
         button.innerHTML = "Reset"
 
         button.classList.add("reset", "bgred")
+        
     }
     if (button.classList.contains("reset")){
         i = 0;
